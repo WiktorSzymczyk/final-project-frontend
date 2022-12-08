@@ -24,7 +24,8 @@ function Chat() {
         }}
       />
       <button onClick={sendMessage}>Send Message</button>
-      <h1>Message: {messageReceived}</h1>
+      <h1>{messageReceived}</h1>
+      <h2>{socket.id}</h2>
     </div>
   );
 }
